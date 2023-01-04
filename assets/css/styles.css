@@ -6,9 +6,34 @@
 
 }
 
-.video {
+.videoimg {
     
     display: block;
     margin:auto;
 
+}
+
+.body {
+
+    font-family: 'Permanent Marker';
+}
+
+.listas {
+
+    color: #6C3483;
+    font-size: 20px;
+}
+
+th,td{
+    border: 1px double black;
+    text-align: center;
+    padding: 10px 15px 30px 10px;
+    
+}
+
+.libros{
+    text-align: center;
+    border: 2px solid green;
+    border-spacing: 0px;
+    width: 100%;
 }

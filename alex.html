@@ -9,11 +9,12 @@
         <link rel="icon" type="image/x-icon" href="assets/img/872393.png">
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
 
     </head>
-    <body>
-        <h1 class="TITULO">Los tacos que más me gustan</h1>
-            <ul>
+    <body class="body">
+        <h1 class="TITULO">Los tacos que más me gustan.</h1>
+            <ul class="listas">
                 <li>suadero</li>
                 <li>costilla</li>
                 <li>bistec</li>
@@ -21,25 +22,74 @@
             </ul>
         <h2>El porque me gustan los tacos de suadero</h2>
 
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/xoR8Q7fQeJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="videoimg" width="560" height="315" src="https://www.youtube.com/embed/xoR8Q7fQeJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br>
             <br>
 
         <p>La verdad no se si ha quedado claro pero me gustan los tacos en especial los de <strong>suadero</strong>,siempre y cuando se haga de manera correcta, los tacos son muy buenos</p>
-        <p><img src="assets/img/como-hacer-tacos-de-suadero-estilo-callejero-en-casa-.jpg" width="200" height="200" alt="3 tacos de suadero con cilantro y cebolla en un plato rojo"></p>
+        <p><img class="videoimg" src="assets/img/como-hacer-tacos-de-suadero-estilo-callejero-en-casa-.jpg" width="200" height="200" alt="3 tacos de suadero con cilantro y cebolla en un plato rojo"></p>
 
         <p>Los tacos son tan importante que incluso le hicieron un gran documental en netflix llamado las cronicas del taco</p>
-            <p><img src="assets/img/118112568_2758155757752195_715568327536505948_o.jpg" width="200" height="200"></p>
+            <p><img class="videoimg" src="assets/img/118112568_2758155757752195_715568327536505948_o.jpg" width="200" height="200"></p>
 
         <a href="https://www.netflix.com/us-es/title/81040704">Las cronicas del taco lo puedes ver aqui</a>
         <p>
             <details>
                 <summary>Más información de tacos</summary>
-                <p>son maravillosos</p>
-                <p>son ricos</p>
-                <p>pura proteina T</p>
+                    <ol>
+                        <li>son maravillosos</li>
+                        <li>son ricos</li>
+                        <li>pura proteina T</li>
+                    </ol>    
             </details>
         </p>  
+
+        <div>
+            <p>Libros para leer mientras comes tacos</p>
+            <table class="libros">
+                <thead>
+                    <tr>
+                        <th colspan="7">Libros</th> <!--nos permite "fusionar" celdas consecutivas-->
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Autor</th>
+                        <th>Idioma</th>
+                        <th>Editorial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La sombra</td>
+                        <td>John Katzenbach</td>
+                        <td>Ingles</td>
+                        <td>Ediciones B México S.A. DE C.V</td>
+                    </tr>
+
+                    <tr>
+                        <td>El psicoanalista</td>
+                        <td>John Katzenbach</td>
+                        <td>Ingles</td>
+                        <td>Ediciones B México S.A. DE C.V</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>A la sombra de la revolución</td>
+                        <td>Hector Aguilar Camin y Lorenzo Meyer</td>
+                        <td>Español</td>
+                        <td>Cay y Arena</td>
+                    </tr>
+                    <tr>
+                        <td>El país de las ultimas cosas</td>
+                        <td>Paul Auster</td>
+                        <td>Ingles</td>
+                        <td>ANAGRAMA</td>
+                    </tr>
+                </tbody>
+            
+            </table>
+        </div>
+
 
 
     </body>
